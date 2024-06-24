@@ -1,1 +1,2 @@
 # BarberShopFrontend
+Angular 18
