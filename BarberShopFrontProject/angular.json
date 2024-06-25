@@ -34,7 +34,10 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "public/scripts/bootstrap.min.js",
+              "public/scripts/custom.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -103,5 +106,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d4c7018a-3c92-453e-89ec-85365a24c8e1"
   }
 }
